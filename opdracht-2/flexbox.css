@@ -1,3 +1,55 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+/* opdracht 2.1 */
+.one {
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+/* opdracht 2.2 */
+.two{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* opdracht 2.3 */
+.three{
+    display:flex;
+    justify-content: space-between;
+}
+
+.three ul{
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+}
+
+/* opdracht 2.4 */
+
+form{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*opdracht 2.5 */
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* in de html de class "column" toegevoegd aan <article> */
+/* als kolombreedte kleiner wordt dan 360px dan flext ie naar volgende regel 1200/3=400, 400 - 2X (links en rechts) padding20px = 360px*/
+.column{
+    flex: 360px;
+}
+
+
+
+
+
